@@ -1,0 +1,24 @@
+
+<p class="notice"><%= notice %></p>
+    <%= render 'errors' %>
+<div class="col-lg-12" style="position:relative; top:15vh;">
+
+    
+    <div class="col-lg-4 mx-auto" >
+        <div class="card mt-5 mb-2 border" style="background:red;">
+            <div class="card-body">
+                <h1 class="text-center">Edit the Task</h1>
+            </div>
+        </div>
+
+
+    </div>
+        <%= render 'form', task: @task %>
+
+        <%#= link_to 'Show', @task %>
+
+        <%#= link_to 'Back', tasks_path %>
+
+    
+
+</div>

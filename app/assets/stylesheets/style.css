@@ -1,0 +1,43 @@
+#tsktbl{
+    border:1px solid black;
+}
+#tsktbl thead{
+    background-color: azure;
+}
+#tsktbl tbody{
+    background:radial-gradient(circle,antiquewhite,azure);
+}
+
+
+.circle{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background:radial-gradient(circle,yellow,red,azure);
+    position:relative;
+    left:62vw;
+    bottom:40px;
+}
+
+.circle2{
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:black;
+    position:relative;  
+    top:40px;
+    left:40px;
+}
+
+.circle2:hover{
+    /* opacity:0; */
+    background-color:white;
+    /* transform: rotate(1000deg); */
+    transition:3s;
+}
+
+.circle:hover{
+    background:radial-gradient(circle,red,yellow);
+    transform:rotate(1000deg);
+    transition:5s;
+}
