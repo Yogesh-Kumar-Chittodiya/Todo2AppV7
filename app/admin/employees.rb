@@ -17,6 +17,6 @@ ActiveAdmin.register Employee do
 
   # actions :index, :edit, :update, :create, :destroy
 
-  permit_params :emp_name, :email, :phone_number, :company, :address, :password, :confirm_password
+  permit_params :emp_name, :email, :phone_number, :company, :address
   
 end
